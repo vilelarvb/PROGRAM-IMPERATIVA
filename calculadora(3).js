@@ -33,13 +33,13 @@ function quadradoDoNumero(num){
     return multiplicar(num, num);
 }
 
-console.log(quadradoDoNumero(3));
+console.log(quadradoDoNumero(5));
 
 // Média de 3(três) números
 
 function mediaDeTresNumeros(a, b, c){
     let soma = a + b + c;
-    return dividir(soma, 3);
+    return dividir(soma, 6);
 }
 
 console.log(mediaDeTresNumeros(10, 3, 2));
@@ -51,7 +51,7 @@ function calcularPorcentagem (valor, taxa){
     return parseFloat((multiplicar(valor, percentual)).toFixed(2));
 }
 
-console.log(calcularPorcentagem(300, 25.56));
+console.log(calcularPorcentagem(260, 12.234));
 
 // Gerador de porcentagem
 
@@ -60,4 +60,4 @@ function geradorDePorcentagem (valorA, valorB){
     return dividir(primeiraOperacao, valorB);
 }
 
-console.log(geradorDePorcentagem(60, 200) + "%")
+console.log(geradorDePorcentagem(80, 130) + "%")
